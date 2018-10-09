@@ -1,3 +1,5 @@
+///@file wc.c
+///@brief Source code of the wc.c program
 /* Sample implementation of wc utility. */
 
    #include <stdlib.h>
@@ -61,7 +63,7 @@
 
    /* Return true if C is a valid word constituent */
    static int
-   isword (unsigned char c)
+   isword (unsigned char c) ///@return static integer
    {
      return isalpha (c);
    }
